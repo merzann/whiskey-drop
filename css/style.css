@@ -2,6 +2,16 @@ body {
     font-family:'Roboto',sans-serif;
 }
 
+/* Containers */
+
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+/* Alert Container */
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -58,6 +68,10 @@ body {
 
 .block-divider--orange {
     background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 .block-divider--short {
