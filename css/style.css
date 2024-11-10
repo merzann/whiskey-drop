@@ -169,3 +169,18 @@ body {
 .page-header h2 {
     margin-top: 0;
 }
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 35px;
+}
