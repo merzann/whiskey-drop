@@ -170,6 +170,12 @@ body {
     margin-top: 0;
 }
 
+/* Quotes */
+
+.page-header {
+    margin-bottom: 25px;
+}
+
 /* Features */
 
 .feature {
@@ -183,4 +189,14 @@ body {
     margin-bottom: 20px;
     font-size: 35px;
     line-height: 35px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
