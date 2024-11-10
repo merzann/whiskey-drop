@@ -2,11 +2,52 @@ body {
     font-family:'Roboto',sans-serif;
 }
 
-alert-container {}
+.alert-container {}
 
-monthlyFavourites-container {}
+.callout-container {
+    height: 100vh;
+    background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-quotes-container {}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-features-container {}
+.monthlyFavourites-container {}
 
+.quotes-container {}
+
+.features-container {}
+
+/* Block dividers */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #f05f40;
+}
+/* jumbotron */
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
