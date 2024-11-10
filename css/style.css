@@ -16,6 +16,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
 .opaque-overlay {
@@ -68,4 +70,27 @@ body {
 .jumbotron .lead {
     margin: 25px 0;
     color: #a7a7a7;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
 }
