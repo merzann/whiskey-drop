@@ -72,7 +72,7 @@ body {
 }
 
 .monthlyFavourites table {
-    max-width: 60%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,6 +80,13 @@ body {
 .monthlyFavourites thead {
     background-color: tan;
 }
+
+/* Media query */
+@media (min-width: 991px) {
+    .monthlyFavourites table {
+      max-width: 60%;
+    }
+  }  
 
 /* Block dividers */
 .block-divider {
