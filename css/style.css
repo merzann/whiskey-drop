@@ -52,6 +52,35 @@ body {
     background-color: rgba(0,0,0,0.5)
 }
 
+/* Monthly favourites */
+.monthlyFavourites-container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0;
+}
+
+.monthlyFavourites-container h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.monthlyFavourites {
+    background-color: #444;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.monthlyFavourites table {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.monthlyFavourites thead {
+    background-color: tan;
+}
+
 /* Block dividers */
 .block-divider {
     width: 75px;
